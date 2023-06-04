@@ -1,6 +1,6 @@
 function spinWords(str){
   return str.split(' ')
-            .map(word => word.length<5 ? word : word.split('').reverse().join('')).join(' ');
+            .map(word => word.length < 5 ? word : word.split('').reverse().join('')).join(' ');
 }
 
 //FIRST ATTEMPT, FUNCTIONAL BUT NOT IDEAL
